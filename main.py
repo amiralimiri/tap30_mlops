@@ -1,6 +1,4 @@
-from __future__ import annotations
+from src.logger import get_logger
 
-import os
-import sys
-
-print("hello world")
+logger = get_logger(__name__)
+logger.info("This is an informational message.")
