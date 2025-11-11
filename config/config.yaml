@@ -1,0 +1,4 @@
+data_ingestion:
+  bucket_name: "tap30-model"
+  object_name: "data.txt"
+  storage_path: "s3.ir-thr-at1.arvanstorage.ir"
