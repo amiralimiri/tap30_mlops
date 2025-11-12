@@ -1,4 +1,5 @@
-from src.logger import get_logger
+from src.config_reader import read_config
+from src.data_ingestion import DataIngestion
 
-logger = get_logger(__name__)
-logger.info("This is an informational message.")
+data_ingestion = DataIngestion(read_config("config/config.yaml"))
+data_ingestion.run()
