@@ -2,3 +2,5 @@ data_ingestion:
   bucket_name: "tap30-model"
   object_name: "data.txt"
   storage_path: "s3.ir-thr-at1.arvanstorage.ir"
+  train_ratio: 0.9
+  artifact_dir: "artifacts"
