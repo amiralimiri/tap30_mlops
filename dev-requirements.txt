@@ -1,3 +1,4 @@
 black[jupyter]==25.11.0
 isort==7.0.0
 pre-commit==v4.4.0
+setuptools[core]==v80.9.0
