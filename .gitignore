@@ -211,3 +211,6 @@ logs/
 
 # artifacts
 artifacts/
+
+# MLflow
+mlruns/
