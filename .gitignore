@@ -208,6 +208,7 @@ __marimo__/
 
 # logger outputs
 logs/
+*.log
 
 # artifacts
 artifacts/
